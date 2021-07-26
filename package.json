@@ -1,0 +1,58 @@
+{
+  "name": "vue-iot",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "test:unit": "vue-cli-service test:unit",
+    "eslint-fix": "eslint src/**/*.{js,vue}  --fix"
+  },
+  "dependencies": {
+    "@nutui/nutui": "^2.2.12",
+    "axios": "^0.21.1",
+    "babel-plugin-import": "^1.13.3",
+    "core-js": "^2.6.5",
+    "cssnano": "^4.1.10",
+    "postcss-aspect-ratio-mini": "^1.0.1",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-px-to-viewport": "^1.1.0",
+    "postcss-viewport-units": "^0.1.6",
+    "postcss-write-svg": "^3.0.1",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "vant": "^2.12.25",
+    "vue": "^2.6.10",
+    "vue-router": "^3.0.3",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@nutui/babel-plugin-separate-import": "^1.2.2",
+    "@vue/cli-plugin-babel": "^3.0.4",
+    "@vue/cli-plugin-eslint": "^3.0.4",
+    "@vue/cli-plugin-unit-jest": "^3.0.4",
+    "@vue/cli-service": "^3.0.4",
+    "@vue/eslint-config-prettier": "^5.0.0",
+    "@vue/test-utils": "1.0.0-beta.29",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^23.6.0",
+    "compression-webpack-plugin": "^1.1.11",
+    "eslint": "^5.16.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-vue": "^7.8.0",
+    "image-webpack-loader": "^7.0.1",
+    "less": "^3.0.4",
+    "less-loader": "^5.0.0",
+    "postcss-import": "^12.0.1",
+    "postcss-url": "^8.0.0",
+    "prettier": "^1.18.2",
+    "vue-template-compiler": "^2.6.10",
+    "webpack-bundle-analyzer": "^4.4.1"
+  },
+  "eslintConfig": {
+    "rules": {
+      "eslint-disable-next-line": false
+    }
+  }
+}
